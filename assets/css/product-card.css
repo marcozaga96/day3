@@ -1,0 +1,37 @@
+#card {
+  background-color: #fbf7e3;
+  width: 250px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  text-align: center;
+  margin: 10px;
+  flex-grow: 1;
+}
+#honey {
+  border-radius: 30px 30px 0 0;
+}
+#btnAdd {
+  width: 50%;
+  padding: 5px;
+  background-color: #f3df85;
+  border-radius: 20px;
+  border: #f3df85;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: #742305;
+  font-weight: bold;
+}
+#text {
+  display: flex;
+  justify-content: space-evenly;
+}
+span {
+  font-weight: bold;
+}
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

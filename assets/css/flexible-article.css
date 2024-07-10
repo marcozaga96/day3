@@ -1,0 +1,22 @@
+#container {
+  background-color: #fbf7e3;
+  padding: 20px;
+  border-radius: 20px;
+}
+.honey {
+  width: 100%;
+}
+@media screen and (min-width: 900px) {
+  #container {
+    display: flex;
+  }
+  #container img {
+    order: 1;
+  }
+  #article {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    margin-left: 10px;
+  }
+}
